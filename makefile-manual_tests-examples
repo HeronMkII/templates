@@ -8,7 +8,7 @@
 # Includes (header files)
 INCLUDES = -I../../lib-common/include
 # Libraries from lib-common to link
-LIB = -L../../lib-common/lib -luart -lspi -lcan -ldac -ladc -lconversions -L../../lib -luart -lprintf_flt -lm
+LIB = -L../../lib-common/lib -ladc -lcan -lconversions -ldac -lspi -luart -lprintf_flt -lm
 #-------------------------------------------------------------------------------
 
 
