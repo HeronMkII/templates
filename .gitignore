@@ -1,0 +1,7 @@
+# This .gitignore is not meant to be used as a template, it is to ignore files in the templates repository itself
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
