@@ -22,3 +22,6 @@ xcuserdata
 .project
 .cproject
 .settings
+
+# PyCharm files
+.idea
