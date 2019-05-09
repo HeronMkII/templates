@@ -5,3 +5,17 @@
 
 # Windows files
 Thumbs.db
+
+# Xcode files
+xcuserdata
+
+# Eclipse files
+.project
+.cproject
+.settings
+
+# PyCharm files
+.idea
+
+# VS Code files
+.vscode
