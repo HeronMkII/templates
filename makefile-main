@@ -155,7 +155,7 @@ debug:
 # because harness.py has the `include` and `src` paths hardcoded
 harness:
 	cd lib-common && \
-	$(PYTHON) ./bin/harness.py -p $(PORT) -u $(UART) -d ../$(TEST) $(HARNESS_ARGS)
+	$(PYTHON) ./bin/harness.py -m $(MCU) -p $(PORT) -u $(UART) -d ../$(TEST) $(HARNESS_ARGS)
 
 # Help shows available commands
 help:
