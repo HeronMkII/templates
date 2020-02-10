@@ -5,6 +5,9 @@
 #define SECURITY_H
 
 // Must be 4 bytes
-#define SECURITY_CORRECT_PWD "UTAT"
+// UTAT
+#define SECURITY_CORRECT_PWD_1 "\x55\x54\x41\x54"
+// MKII
+#define SECURITY_CORRECT_PWD_2 "\x4D\x4B\x49\x49"
 
 #endif
